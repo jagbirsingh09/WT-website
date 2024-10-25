@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Beatzz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="myheading">Beatzz Products</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Products in Your Cart</h2>
+            <div id="cart-items">
+            </div>
+            <div id="total-price">
+                <strong>Total Price: </strong><span id="total">0</span> INR
+            </div>
+            <button id="checkout-btn">Checkout</button>
+        </section>
+        <section class="product-list">
+            <div class="product-item">
+                <img src="./51FmwWouwOL.jpg" alt="Steel Tabla Pair">
+                <h3>Steel Tabla Pair</h3>
+                <p>2 Kg Steel Bayan and Red Sheesham Dayan</p>
+                <p>Price: ₹7,000</p>
+                <button class="btn btn-danger" onclick="addToCart('Steel Tabla Pair', 7000)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="./copper-tabala-2.jpg" alt="Copper Tabla Pair">
+                <h3>Copper Tabla Pair</h3>
+                <p>3.5 Kg Copper Bayan and Red Sheesham Dayan</p>
+                <p>Price: ₹9,000</p>
+                <button class="btn btn-danger" onclick="addToCart('Copper Tabla Pair', 9000)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="./31drvool+yL._AC_UF1000,1000_QL80_.jpg" alt="Steel Hammer">
+                <h3>Steel Hammer</h3>
+                <p>1.5 Kg Steel Hammer</p>
+                <p>Price: ₹200</p>
+                <button class="btn btn-danger" onclick="addToCart('Steel Hammer', 200)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="./Bayan_peg_plain__28575.jpg" alt="Bayan Dowels">
+                <h3>Bayan Dowels</h3>
+                <p>Pair of 8 Dowels</p>
+                <p>Price: ₹100</p>
+                <button class="btn btn-danger" onclick="addToCart('Bayan Dowels', 100)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="./images (1).jpg" alt="Dayan Dowels">
+                <h3>Dayan Dowels</h3>
+                <p>Pair of 8 Dowels</p>
+                <p>Price: ₹150</p>
+                <button class="btn btn-danger" onclick="addToCart('Dayan Dowels', 150)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="./2-tabla-ring-pad-multicolor-pack-of-2-khalsa-musical-original-imagdsqshz2wu7q4.jpeg" alt="Rings and Tabla Covers">
+                <h3>Rings and Tabla Covers</h3>
+                <p>Get customised rings and cover of your colour preference</p>
+                <p>Price: ₹500</p>
+                <button class="btn btn-danger" onclick="addToCart('Rings and Tabla Covers', 500)">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Made By JAGBIR SINGH</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
