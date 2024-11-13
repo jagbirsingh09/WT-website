@@ -2,8 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: lightgray;
+    color: darkslategray;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -12,9 +12,9 @@ body {
 header {
     position: fixed;
     width: 100%;
-    top:0;
-    background-color: #007bff;
-    color: #fff;
+    top: 0;
+    background-color: mediumblue;
+    color: white;
     height: 110px;
     text-align: center;
 }
@@ -29,7 +29,7 @@ header nav {
 }
 
 header nav a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     margin: 0 15px;
     font-weight: 500;
@@ -41,18 +41,17 @@ header nav a:hover {
 
 main {
     padding: 120px 20px 20px 20px;
-   
 }
 
 .hero {
-    background-color: #e9ecef;
+    background-color: lightgray;
     padding: 40px;
     text-align: center;
     border-radius: 5px;
 }
 
 .hero h2 {
-    color: #007bff;
+    color: mediumblue;
 }
 
 .product-list {
@@ -63,8 +62,8 @@ main {
 }
 
 .product-item {
-    background-color: #fff;
-    border: 1px solid #dee2e6;
+    background-color: white;
+    border: 1px solid lightgray;
     border-radius: 5px;
     margin: 10px;
     padding: 20px;
@@ -79,17 +78,17 @@ main {
 }
 
 .product-item h3 {
-    color: #007bff;
+    color: mediumblue;
     font-size: 1.25em;
 }
 
 button.btn {
-    background-color: #dc3545;
+    background-color: firebrick;
     color: white;
 }
 
 button.btn:hover {
-    background-color: #c82333;
+    background-color: crimson;
 }
 
 footer {
@@ -98,9 +97,8 @@ footer {
     bottom: 0;
     text-align: center;
     padding: 10px 0;
-    background-color: #007bff;
+    background-color: mediumblue;
     color: white;
-    width: 100%;
 }
 
 .about-section {
@@ -108,7 +106,7 @@ footer {
 }
 
 .about-section h2 {
-    color: #007bff;
+    color: mediumblue;
 }
 
 .about-section p {
@@ -116,7 +114,7 @@ footer {
 }
 
 form {
-    background-color: #fff;
+    background-color: white;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -131,12 +129,12 @@ form input,
 form textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid gray;
     border-radius: 5px;
 }
 
 form button {
-    background-color: #007bff;
+    background-color: mediumblue;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -145,5 +143,5 @@ form button {
 }
 
 form button:hover {
-    background-color: #0056b3;
+    background-color: darkblue;
 }
