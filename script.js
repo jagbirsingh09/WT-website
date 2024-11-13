@@ -32,14 +32,8 @@ function updateCartDisplay() {
         cartContainer.appendChild(item);
         totalPrice += cart[i].price;
     }
-
+    
     totalElement.textContent = 'Total: ₹' + totalPrice;
-}
-
-
-
-function continueShopping() {
-    window.location.href = 'products.html'; 
 }
 
 var checkoutBtn = document.getElementById('checkout-btn');
